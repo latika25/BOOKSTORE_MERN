@@ -1,0 +1,43 @@
+.card-grid {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+
+}
+
+h1 {
+  margin-top: 2rem;
+  text-align: center;
+  color: beige;
+}
+
+.heart:hover {
+  color: rgb(238, 13, 13);
+}
+
+.bag:hover {
+  color: blue
+}
+
+.book:hover {
+  color: green;
+}
+
+.deleteme:hover {
+
+  color: rgb(20, 37, 220)
+}
+
+.deleteme {
+  color: rgb(240, 1, 9);
+
+}
+
+.editme {
+  color: rgb(17, 1, 14)
+}
+
+.editme:hover {
+  color: rgb(44, 207, 8)
+}
